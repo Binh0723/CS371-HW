@@ -1,5 +1,6 @@
 import java.util.Stack;
 
+//depth limited search using stack
 public class DepthLimitedSearcher extends Searcher{
 	private int maxDepth;
 	public DepthLimitedSearcher(int depth)
