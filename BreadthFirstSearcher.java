@@ -80,26 +80,7 @@ public class BreadthFirstSearcher extends Searcher {
 				{
 						q.add(child);
 				}
-//				SearchNode parent = node.parent;
-//				boolean dup = false;
-//				for(int i = 0;i < 10;++i)
-//				{
-//					if(parent != null && parent.equals(child))
-//					{
-//						dup = true;
-//						parent = parent.parent;
-//						if(parent == null)
-//						{
-//							break;
-//						}
-//					}
-//					
-//				}
-//				if(!dup)
-//				{
-//					q.add(child);
-//				}
-//				q.add(child);
+//			
 			}
 
 		}
